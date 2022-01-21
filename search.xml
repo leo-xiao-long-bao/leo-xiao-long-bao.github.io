@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Hello, Blog</title>
+    <url>/Daily/Hello,%20Blog/</url>
+    <content><![CDATA[<h1 id="行行重行行"><a href="#行行重行行" class="headerlink" title="行行重行行"></a>行行重行行</h1><p><strong>汉 佚名</strong></p>
+<p>行行重行行，与君生别离。</p>
+<p>相去万余里，各在天一涯。</p>
+<p>道路阻且长，会面安可知。</p>
+<p>胡马依北风，越鸟巢南枝。</p>
+<p>相去日已远，衣带日已缓。</p>
+<p>浮云蔽白日，游子不顾反。</p>
+<p>思君令人老，岁月忽已晚。</p>
+<p>弃捐勿复道，努力加餐饭。</p>
+]]></content>
+      <categories>
+        <category>Daily</category>
+      </categories>
+      <tags>
+        <tag>daily</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>UCAS卜东波算法2021秋期末试题</title>
     <url>/%E7%AE%97%E6%B3%95/ucas-algorithm-2022/</url>
     <content><![CDATA[<p>共计七道题，今年不考NP问题和对偶。请各位同学根据教学实际，酌情参考。</p>
@@ -41,26 +61,6 @@
       <tags>
         <tag>算法</tag>
         <tag>期末试题</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello, Blog</title>
-    <url>/Daily/Hello,%20Blog/</url>
-    <content><![CDATA[<h1 id="行行重行行"><a href="#行行重行行" class="headerlink" title="行行重行行"></a>行行重行行</h1><p><strong>汉 佚名</strong></p>
-<p>行行重行行，与君生别离。</p>
-<p>相去万余里，各在天一涯。</p>
-<p>道路阻且长，会面安可知。</p>
-<p>胡马依北风，越鸟巢南枝。</p>
-<p>相去日已远，衣带日已缓。</p>
-<p>浮云蔽白日，游子不顾反。</p>
-<p>思君令人老，岁月忽已晚。</p>
-<p>弃捐勿复道，努力加餐饭。</p>
-]]></content>
-      <categories>
-        <category>Daily</category>
-      </categories>
-      <tags>
-        <tag>daily</tag>
       </tags>
   </entry>
 </search>
