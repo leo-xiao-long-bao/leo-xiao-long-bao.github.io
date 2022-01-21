@@ -20,4 +20,47 @@
         <tag>daily</tag>
       </tags>
   </entry>
+  <entry>
+    <title>UCAS卜东波算法2021秋期末试题</title>
+    <url>/%E7%AE%97%E6%B3%95/ucas-algorithm-2022/</url>
+    <content><![CDATA[<p>共计七道题，今年不考NP问题和对偶。请各位同学根据教学实际，酌情参考。</p>
+<p>卷子是纯英文的，在考场上遇到题目看不懂的情况可以举手示意助教解答。</p>
+<p>只要不是大面积空白助教都会尽量捞，真的想不出来就写个时间复杂度分析吧。</p>
+<p>祝各位考试顺利~</p>
+<h2 id="1-Divide-and-Conquer"><a href="#1-Divide-and-Conquer" class="headerlink" title="1. Divide and Conquer"></a>1. Divide and Conquer</h2><p>给定一个长度为k的数组，在这个数组中，有一个数字出现了比$\lfloor{\frac{2}{k}} \rfloor$次还多，请找出这个数字。</p>
+<h2 id="2-Dynamic-Programming"><a href="#2-Dynamic-Programming" class="headerlink" title="2. Dynamic Programming"></a>2. Dynamic Programming</h2><p>给定两个数组，求问最少操作多少次remove元素后，两个数组可以变得一致。</p>
+<p>例如：[A,B,C,D]和[A,E,D]需要操作3次，去除第一个数组里的B和C，以及第二个数组里的E。</p>
+<p><span class="exturl" data-url="aHR0cHM6Ly9sZWV0Y29kZS1jbi5jb20vcHJvYmxlbXMvcUpuT1M3Lw==">剑指Offer II 095<i class="fa fa-external-link-alt"></i></span></p>
+<h2 id="3-Greedy"><a href="#3-Greedy" class="headerlink" title="3. Greedy"></a>3. Greedy</h2><p><span class="exturl" data-url="aHR0cHM6Ly9sZWV0Y29kZS1jbi5jb20vcHJvYmxlbXMvbWF4aW11bS1udW1iZXItb2Ytbm9uLW92ZXJsYXBwaW5nLXN1YmFycmF5cy13aXRoLXN1bS1lcXVhbHMtdGFyZ2V0Lw==">Leetcode NO.1546<i class="fa fa-external-link-alt"></i></span></p>
+<h2 id="4-Linear-Programming"><a href="#4-Linear-Programming" class="headerlink" title="4. Linear Programming"></a>4. Linear Programming</h2><p>搬家问题。你有a1,a2,a3…an，共n件东西，它们的大小分别是b1,b2,b3…，bn；</p>
+<p>你现在有一辆卡车，这辆卡车的容量为V；</p>
+<p>你有c1,c2,c3…cm，共m个箱子，它们的容量分别是d1,d2,d3…,dn，所有的物品必须放在箱子里才能上车；</p>
+<p>设计一个ILP，要求用最少的趟数可以运完所有的东西。</p>
+<p>注意：每个箱子至多使用一次。（问了助教给的答复）</p>
+<h2 id="5-Network-Flow"><a href="#5-Network-Flow" class="headerlink" title="5. Network Flow"></a>5. Network Flow</h2><p>（两段式题干，看懂题目就成功了90%；前面一大段都在解释什么是二分图）</p>
+<p>二分图是是图论中的一种特殊模型。 设G=(V,E)是一个无向图，如果顶点V可分割为两个互不相交的子集(A,B)，并且图中的每条边（i，j）所关联的两个顶点i和j分别属于这两个不同的顶点集(i in A,j in B)，则称图G为一个二分图。给定一个二分图G，在G的一个子图M中，M的边集中的任意两条边都不依附于同一个顶点，则称M是一个匹配。选择这样的边数最大的子集称为图的最大匹配问题（maximal matching problem)。</p>
+<p>现在我们有一个算法可以解决网络流中的最大流问题，我们把这个算法称之为MFP算法。请你利用MFP算法，构造一个算法，使它可以解决MMP问题。</p>
+<p>提示：在二分图中添加可能需要的额外顶点，边，或权值。</p>
+<h2 id="6-Bonus-1"><a href="#6-Bonus-1" class="headerlink" title="6. Bonus 1"></a>6. Bonus 1</h2><p>课堂上有n名学生，他们对于一门考试的成绩分别是a1,a2,… an，现在要把他们划分为若干小组，记一个小组内最高成绩和最低成绩之差为K</p>
+<p>(1) 设计一个算法，把学生分为m组，使所有组当中最大的K尽可能小。</p>
+<p>(2) 能否将学生分为X组，每组至少Y人，且K均小于L？如果可以，给出算法，如果不能，给出理由。</p>
+<p>我们这里假设M,X,Y,L均小于n</p>
+<h2 id="7-Bonus-2"><a href="#7-Bonus-2" class="headerlink" title="7. Bonus 2"></a>7. Bonus 2</h2><p>题干比较复杂的问题，根据群友的说法，这道题的意思是形式语言与自动机中，证明 P 语言关于 * 操作封闭。（我没学过所以不清楚）</p>
+<p>大致回忆如下<strong>（不一定准确！）</strong>：</p>
+<p>我们定义 word = {0,1}</p>
+<p>若干word可以组成一个sentence，sentence的长度不定，可以是无限长。</p>
+<p>非无限长的sentence可以组成一个language</p>
+<p>一个identifier可以用于检查一个sentence是否属于这个language（输出bool true或false）</p>
+<p>我们定义一个语言A，和另一个语言B，其中B语言的sentence由A语言的sentence拼接得到。（比如A语言有00，01两个sentence，那么，0001，0100，01000001都属于B语言）</p>
+<p>现在，给你一个identifier L，它可以在多项式时间内确定一个输入是否属于A language，请利用这个identifier L，构造一个同样多项式时间复杂度的identifier L’， 使得它可以检查输入是否属于B language。</p>
+<p><span class="exturl" data-url="aHR0cHM6Ly9sZWV0Y29kZS1jbi5jb20vcHJvYmxlbXMvd29yZC1icmVhay8=">考场上我的答案思路<i class="fa fa-external-link-alt"></i></span></p>
+]]></content>
+      <categories>
+        <category>算法</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
+        <tag>期末试题</tag>
+      </tags>
+  </entry>
 </search>
